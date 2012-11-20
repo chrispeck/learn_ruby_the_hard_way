@@ -9,7 +9,6 @@ open(url) do |f|
 	puts f.charset
 	puts f.content_encoding
 
-	#in the irb this one returns nil?
-	puts f.last_modified 
+	puts f.last_modified  #question: in the irb this returns nil?
 
 end
